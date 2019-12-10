@@ -12,3 +12,5 @@ environment, including tools such as the shell, simple shell scripts, and makefi
 
 Prerequisite: minimal programming experience in some high-level language (can program
 with loops, if statements, and call and write functions with parameters)
+
+Course website : http://bytes.usc.edu/cs455/
