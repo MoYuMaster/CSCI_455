@@ -1,0 +1,82 @@
+Name: Yaochun Li
+USC NetId: yaochunl
+CSCI 455 PA1
+Fall 2019
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+Yaochun Li
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+Random , swing , awt class.
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+1. The program can not apply to the situation if the input number is out of range ,which means overflow.
+2. It can not self-adaption if the user forcibly change the window scale too much.
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+
+1.In CS 455 what code from the web are you allowed to use in your assignment solution, assuming you modify that code once you get it? 
+
+Ans:  (No clue? Hint: Reread the syllabus.) Note: no need to mention the "starter files" for the assignment in your answer.
+      The outside code resources students will be allowed to use in assignments for this class are limited to code written by the course staff
+      for the purposes of helping students in the course, or code from the textbook for this course.
+	  
+
+2.What is the probability of each of the three outcomes in a trial: two heads, one head and one tail, and two tails? 
+  Why is one of them different than the other two?
+  
+Ans:  Two heads: 25% , one head :25% , one head and one tail = 50%.
+      Once you toss a coin , the probability for head or tail are both 50%,
+	  A trial contains two toss, the probability for two heads is 50% * 50% = 25%,
+	  the probability for two tails is 50% * 50% = 25%,
+	  the probability for one head and one tail is 1 - 25% -25% = 50%
+
+  
+3.Roughly how many trials do you need to do before you mostly get results within 1% of these probabilities? 
+  Do several simulations using your program to determine an answer to this.  
+Ans:   1000 - 28 50 22
+       2000 - 26 50 24
+       4000 - 24 50 26
+	   8000 - 26 49 25
+       100000 - 25 50 25
+	   50000 - 25 50 25
+       10000 - 26 50 25
+	   20000 - 25 50 26
+	   30000 - 25 50 25
+	   
+	   About 10^4 trials
+	   
+	   
+4.Roughly how many trials can you do before it crashes with an overflow error? State the largest value you tried where it still worked correctly, and one where it overflowed. 
+  You can get an idea of what general values to try by looking at the limits on Java integers (see Section 4.1.1 of the text). 
+  Play around with your program to verify that it actually works for very large values that are within the limits. 
+  Note: this kind of testing can sometimes turn up bugs, so it's good to do. Warning: For very large values you may have to wait a fair amount of time before you get the results.
+  
+Ans: I tried 2147483647 which is 2^31 - 1 , it took long time to work . Then I tried 2147483648(2^31), it turns out error.

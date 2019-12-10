@@ -1,0 +1,76 @@
+
+Xvnc TigerVNC 1.8.0 - built May 16 2017 14:01:59
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11400000, The X.Org Foundation
+
+Initializing built-in extension VNC-EXTENSION
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XINERAMA
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension COMPOSITE
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension GLX
+
+Sun Sep 15 16:46:35 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5903
+ vncext:      created VNC server for screen 0
+/usr/bin/startxfce4: X server already running on display :3
+gpg-agent[25667]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[25667]: directory '/home/ccc_3cdd3054d9_11605/asn83334_4/asn83335_1/work/.gnupg' created
+gpg-agent[25667]: directory '/home/ccc_3cdd3054d9_11605/asn83334_4/asn83335_1/work/.gnupg/private-keys-v1.d' created
+gpg-agent[25668]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:25654): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:25654): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /home/ccc_3cdd3054d9_11605/asn83334_4/asn83335_1/work/.cache/sessions/xfce4-session-ip-172-31-16-61:3, Does it exist? Permissions issue?
+
+(xfwm4:25670): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+Sun Sep 15 16:46:52 2019
+ Connections: accepted: 172.31.16.61::52688
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Sun Sep 15 16:56:15 2019
+ Connections: closed: 172.31.16.61::52688 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 257
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 3 rects, 102.658 kpixels
+ EncodeManager:             48 B (1:8555.58 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 720 rects, 6.99322 Mpixels
+ EncodeManager:            11.25 KiB (1:2428.95 ratio)
+ EncodeManager:     Bitmap RLE: 38 rects, 52.415 kpixels
+ EncodeManager:                 1.31641 KiB (1:155.872 ratio)
+ EncodeManager:     Indexed RLE: 658 rects, 1.52558 Mpixels
+ EncodeManager:                  152.426 KiB (1:39.1468 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 578 rects, 4.12418 Mpixels
+ EncodeManager:                  1.36548 MiB (1:11.5264 ratio)
+ EncodeManager:   Total: 1.997 krects, 12.798 Mpixels
+ EncodeManager:          1.52666 MiB (1:31.9938 ratio)
+ ComparingUpdateTracker: 233.63 Mpixels in / 14.3257 Mpixels out
+ ComparingUpdateTracker: (1:16.3085 ratio)

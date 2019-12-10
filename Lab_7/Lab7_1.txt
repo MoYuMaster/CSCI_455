@@ -1,0 +1,15 @@
+
+public int longestWordLen(String words) {
+  Scanner in = new Scanner(words);
+  return compareNext(in);
+}
+
+private int compareNext( Scanner in ){
+  if( !in.hasNext() ) return 0;
+  
+  int front = in.next().length();
+  int back = compareNext(in);
+  if ( front >= back ) return front;
+  else return back;
+  
+}

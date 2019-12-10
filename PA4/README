@@ -1,0 +1,106 @@
+Name: Yaochun Li
+USC NetID: 8555684098
+CS 455 PA4
+Fall 2019
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+Yaochun Li
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+Yaochun Li
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+
+----------------------------------------------
+DESCRIPTION OF YOUR CLASS DESIGN AND ALGORITHMS AND DATA STRUCTURES USED:
+
+1. WorldFinder.java
+	Class design :
+
+		wordFinder method : 
+			the main method to find and print all the words can be formed from the rack
+
+		getEntry method :
+			Use treemap to store , which key represent word , value represent score .
+			return a list of entrys which pairs anagrams with their score .
+
+
+		ScoreComparator : 
+			Sort entryArrayList in decreasing order based on their scores.
+
+	Data structure : TreeMap 
+
+
+
+2. AnagramDictionary.java
+
+	Class design :
+
+		getWordMap method : 	
+			Create hashmap , Key is the canonical form of strings , Value is a list of anagrams of the string .
+
+		getAnagramsOf method :	
+			Get all anagrams of the given string. 
+
+		getCanonOf method: 		
+			Convert string to charlist , sort them in alphabetical order
+
+	Data structure : HashMap		
+
+
+3.ScorreTable.java
+
+	Class design : 
+
+		Constructor: 
+			Use if else to assign scores to specific letters.
+
+		getScore method : 
+			Convert input string to lower case to make it easier to compute .
+
+
+4.Rack.java
+
+	Class design :
+
+		getUnique method :
+			Get unique letters from given String s .
+			Compute each letters multiplicity and store them into a list .
+
+		getAllSubsets	:
+			Make a defensive copy
+
+	Data structure : TreeMap		
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+
+
+
+
